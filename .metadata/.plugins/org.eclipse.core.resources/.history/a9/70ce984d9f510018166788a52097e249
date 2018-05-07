@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : Overloading.cpp
+// Author      : JK
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Test {
+private:
+	int id;
+	string name;
+
+public:
+	Test():id(0), name(""){
+
+	}
+
+	Test(int id, string name):id(id), nmae(name){
+
+	}
+
+	void print(){
+		cout << id << " " << name;
+	}
+
+};
+
+int main() {
+
+
+	return 0;
+}

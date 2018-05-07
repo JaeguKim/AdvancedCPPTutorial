@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : Maps.cpp
+// Author      : JK
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+int main() {
+	map<string, int> ages;
+
+	ages["Mike"] = 40;
+	ages["Raj"] = 20;
+	ages["Vicky"] = 30;
+
+	cout << ages["Raj"] << endl;
+
+	return 0;
+}

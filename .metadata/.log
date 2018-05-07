@@ -1,0 +1,316 @@
+!SESSION 2018-04-26 00:09:19.162 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-04-26 00:09:43.511
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-04-26 00:09:51.489
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-26 00:11:25.510
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-26 00:11:25.512
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-26 00:11:25.512
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-26 00:11:34.177
+!MESSAGE Indexed 'Exception' (1 sources, 209 headers) in 10.1 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-04-29 12:05:26.653 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-04-29 12:05:34.639
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-29 12:05:47.289
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-29 12:05:47.311
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-29 12:05:47.312
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 12:09:04.954
+!MESSAGE Indexed 'Writing Text Files' (1 sources, 209 headers) in 10 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 12:20:38.768
+!MESSAGE Indexed 'Vectors' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 12:21:16.122
+!MESSAGE Indexed 'Vectors' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 12:21:48.365
+!MESSAGE Indexed 'Vectors' (1 sources, 0 headers) in 0.034 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 12:36:18.988
+!MESSAGE Indexed 'Vectors and Memory' (1 sources, 209 headers) in 6.38 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-04-29 21:44:05.065 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-04-29 22:11:21.200
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 22:19:51.780
+!MESSAGE Indexed 'Two Dimensional Vector' (1 sources, 209 headers) in 9.75 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-29 22:22:38.376
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-29 22:22:38.378
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-04-29 22:22:38.378
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-04-29 22:24:38.293
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Two Dimensional Vector/Debug/Two Dimensional Vector not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-04-29 22:24:38.308
+!MESSAGE /Users/jaegu/Desktop/CppProject/Two Dimensional Vector/Debug/Two Dimensional Vector not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Two Dimensional Vector/Debug/Two Dimensional Vector not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 22:27:11.690
+!MESSAGE Indexed 'Lists' (1 sources, 209 headers) in 7.03 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-29 23:06:54.167
+!MESSAGE Indexed 'Auto Pointers' (1 sources, 0 headers) in 0.063 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2018-05-03 22:37:10.297 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-03 22:37:23.499
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-03 22:39:10.994
+!MESSAGE Indexed 'Maps' (1 sources, 209 headers) in 11.6 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-03 22:40:10.370
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-03 22:40:10.372
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-03 22:40:10.372
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-03 22:58:06.768
+!MESSAGE Indexed 'Custom Objects as Map Values' (1 sources, 209 headers) in 8.88 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-05-06 12:04:18.467 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-06 12:04:30.735
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-06 12:06:09.899
+!MESSAGE Indexed 'Custom Objects as Map Keys' (1 sources, 209 headers) in 8.31 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-06 12:09:53.250
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-06 12:09:53.251
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-06 12:09:53.251
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-06 12:30:39.520
+!MESSAGE Indexed 'Multimap' (1 sources, 209 headers) in 6.5 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-06 16:53:14.589
+!MESSAGE Indexed 'Sets' (1 sources, 209 headers) in 6.43 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-06 17:05:33.059
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Sets/Debug/Sets not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-06 17:05:33.061
+!MESSAGE /Users/jaegu/Desktop/CppProject/Sets/Debug/Sets not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Sets/Debug/Sets not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-06 17:30:41.826
+!MESSAGE Indexed 'Stack and Queue' (1 sources, 209 headers) in 5.47 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-06 19:52:06.074
+!MESSAGE Indexed 'Sorting Vectors' (1 sources, 209 headers) in 4.34 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-06 21:19:25.226
+!MESSAGE Indexed 'STL Complex Data Types' (1 sources, 209 headers) in 4.63 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-05-07 11:31:47.403 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-07 11:31:59.407
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 11:33:20.282
+!MESSAGE Indexed 'Overloading the Assignment Operator' (1 sources, 209 headers) in 11.3 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-07 11:35:03.981
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-07 11:35:03.982
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-07 11:35:03.982
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-07 11:41:28.445
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Overloading the Assignment Operator/Debug/Overloading the Assignment Operator not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-07 11:41:28.447
+!MESSAGE /Users/jaegu/Desktop/CppProject/Overloading the Assignment Operator/Debug/Overloading the Assignment Operator not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Overloading the Assignment Operator/Debug/Overloading the Assignment Operator not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 11:58:34.963
+!MESSAGE Indexed 'Overloading the Insertion Operator for Printing' (1 sources, 209 headers) in 7.72 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 12:11:39.509
+!MESSAGE Indexed 'A Complex Number Class' (1 sources, 209 headers) in 6.9 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 12:41:17.347
+!MESSAGE Indexed 'Overloading Plus' (1 sources, 209 headers) in 5.74 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 12:54:25.999
+!MESSAGE Indexed 'Overloading Comparison Operators' (1 sources, 209 headers) in 5.16 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 13:04:35.274
+!MESSAGE Indexed 'Overloading the Dereference Operator' (1 sources, 209 headers) in 4.96 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 13:13:35.353
+!MESSAGE Indexed 'Template Classes' (1 sources, 209 headers) in 4.68 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-05-07 19:55:46.569 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-07 19:55:59.869
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 19:57:53.295
+!MESSAGE Indexed 'Template Functions' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-07 20:00:54.256
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-07 20:00:54.258
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-07 20:00:54.259
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 20:08:13.407
+!MESSAGE Indexed 'Template Functions and Type Inference' (1 sources, 209 headers) in 7.8 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 20:16:02.872
+!MESSAGE Indexed 'Function Pointers' (1 sources, 209 headers) in 8.9 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 22:02:16.727
+!MESSAGE Indexed 'Using Function Pointers' (1 sources, 209 headers) in 6.28 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-07 22:21:12.896
+!MESSAGE Indexed 'Object Slicing and Polymorphism' (1 sources, 209 headers) in 4.9 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)

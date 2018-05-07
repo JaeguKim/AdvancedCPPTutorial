@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : A.cpp
+// Author      : JK
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <Complex>
+
+using namespace std;
+using namespace caveofprogramming;
+
+int main() {
+
+	Complex c1;
+	return 0;
+}

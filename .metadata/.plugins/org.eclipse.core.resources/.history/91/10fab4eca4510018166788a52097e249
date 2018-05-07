@@ -1,0 +1,14 @@
+/*
+ * Complex.cpp
+ *
+ *  Created on: 2018. 5. 7.
+ *      Author: jaegu
+ */
+
+#include "Complex.h"
+
+Complex::Complex() :real(0), imaginary(0){
+	// TODO Auto-generated constructor stub
+
+}
+
