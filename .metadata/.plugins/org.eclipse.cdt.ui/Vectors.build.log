@@ -1,6 +1,6 @@
-22:22:45 **** Incremental Build of configuration Debug for project Vectors ****
+14:23:04 **** Incremental Build of configuration Debug for project Vectors ****
 make all 
 make: Nothing to be done for `all'.
 
-22:22:45 Build Finished (took 100ms)
+14:23:04 Build Finished (took 86ms)
 
