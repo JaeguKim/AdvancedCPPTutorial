@@ -1,6 +1,6 @@
-14:23:03 **** Incremental Build of configuration Debug for project Template Functions ****
+16:29:00 **** Incremental Build of configuration Debug for project Template Functions ****
 make all 
 make: Nothing to be done for `all'.
 
-14:23:03 Build Finished (took 83ms)
+16:29:01 Build Finished (took 194ms)
 

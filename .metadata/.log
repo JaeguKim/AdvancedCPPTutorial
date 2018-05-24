@@ -412,3 +412,464 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.cdt.core 1 0 2018-05-21 14:21:27.396
 !MESSAGE Indexed 'Nested Template Classes' (1 sources, 209 headers) in 5.82 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-05-23 10:41:23.753 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-23 10:41:31.531
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 10:42:36.825
+!MESSAGE Indexed 'Ring Buffer' (1 sources, 209 headers) in 9.77 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-23 10:53:31.062
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-23 10:53:31.063
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-23 10:53:31.063
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 10:55:46.546
+!MESSAGE Indexed 'Iterable Classes' (1 sources, 209 headers) in 5.82 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2018-05-23 11:55:03.290
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:120)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:71)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getGDBVersion(GdbLaunch.java:524)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 12:12:23.979
+!MESSAGE Indexed 'C++ 98 Initialization' (1 sources, 0 headers) in 0.078 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 13:46:54.809
+!MESSAGE Indexed 'Initialization C++ 11' (1 sources, 209 headers) in 4.29 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-23 13:57:59.091
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Initialization C++ 11/Debug/Initialization C++ 11 not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-23 13:57:59.091
+!MESSAGE /Users/jaegu/Desktop/CppProject/Initialization C++ 11/Debug/Initialization C++ 11 not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Initialization C++ 11/Debug/Initialization C++ 11 not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 13:59:46.002
+!MESSAGE Indexed 'Initializer Lists' (1 sources, 209 headers) in 3.91 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 14:12:20.056
+!MESSAGE Indexed 'Object Initialization' (1 sources, 209 headers) in 3.49 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 14:29:53.176
+!MESSAGE Indexed 'Introducing Lambda Expressions' (1 sources, 209 headers) in 3.52 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 15:20:55.221
+!MESSAGE Indexed 'Lambda Parameters and Return Type' (1 sources, 209 headers) in 3.7 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 15:32:33.475
+!MESSAGE Indexed 'Lambda Capture Expressions' (1 sources, 0 headers) in 0.091 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 16:48:22.542
+!MESSAGE Indexed 'Capturing this in Lambda' (1 sources, 209 headers) in 3.89 sec: 23,385 declarations; 47,137 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-23 16:56:18.258
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-23 16:56:18.258
+!MESSAGE /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-23 16:56:41.361
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-23 16:56:41.361
+!MESSAGE /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-23 16:57:11.767
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-23 16:57:11.767
+!MESSAGE /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-23 16:57:37.572
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-23 16:57:37.572
+!MESSAGE /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Capturing this in Lambda/Debug/Lambda Capture Expressions not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-23 17:00:45.463
+!MESSAGE Indexed 'Functional Types' (1 sources, 209 headers) in 4.05 sec: 23,386 declarations; 47,122 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+!SESSION 2018-05-24 10:19:38.192 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaegu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-24 10:20:03.683
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 11:20:25.980
+!MESSAGE Indexed 'Mutable Lambdas' (1 sources, 209 headers) in 8.93 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-24 11:21:56.125
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-24 11:21:56.127
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-05-24 11:21:56.127
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 11:27:11.978
+!MESSAGE Indexed 'Delegating Constructors' (1 sources, 0 headers) in 0.048 sec: 4 declarations; 4 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 11:41:53.248
+!MESSAGE Indexed 'Elision and Optimization' (1 sources, 209 headers) in 5.45 sec: 23,386 declarations; 47,112 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 13:45:34.685
+!MESSAGE Indexed 'Constructors and Memory' (1 sources, 0 headers) in 0.055 sec: 19 declarations; 18 references; 2 unresolved inclusions; 0 syntax errors; 20 unresolved names (35%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 14:03:58.939
+!MESSAGE Indexed 'Rvalue Reference' (1 sources, 0 headers) in 0.057 sec: 22 declarations; 41 references; 3 unresolved inclusions; 0 syntax errors; 22 unresolved names (26%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 14:09:37.627
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 14:09:37.634
+!MESSAGE /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 14:09:45.992
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 14:09:45.992
+!MESSAGE /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 14:10:03.227
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 14:10:03.227
+!MESSAGE /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 14:10:10.897
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 14:10:10.897
+!MESSAGE /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 14:10:32.905
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 14:10:32.905
+!MESSAGE /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Rvalue Reference/Debug/Elision and Optimization not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 14:18:32.848
+!MESSAGE Indexed 'Lvalue Reference' (1 sources, 212 headers) in 4.21 sec: 24,612 declarations; 50,521 references; 0 unresolved inclusions; 10 syntax errors; 642 unresolved names (0.85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 14:30:49.442
+!MESSAGE Indexed 'Rvalues and Lvalues' (1 sources, 212 headers) in 3.92 sec: 24,612 declarations; 50,521 references; 0 unresolved inclusions; 10 syntax errors; 642 unresolved names (0.85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 14:31:35.337
+!MESSAGE Indexed 'Rvalue References' (1 sources, 212 headers) in 3.87 sec: 24,611 declarations; 50,520 references; 0 unresolved inclusions; 10 syntax errors; 642 unresolved names (0.85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 14:58:11.660
+!MESSAGE Indexed 'Static Cast' (1 sources, 209 headers) in 3.69 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 15:09:14.059
+!MESSAGE Indexed 'Dynamic Cast' (1 sources, 209 headers) in 4.04 sec: 23,385 declarations; 47,119 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 15:17:00.386
+!MESSAGE Indexed 'Reinterpret Cast' (1 sources, 0 headers) in 0.009 sec: 9 declarations; 13 references; 1 unresolved inclusions; 0 syntax errors; 7 unresolved names (24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 15:28:56.925
+!MESSAGE Indexed 'Perfect Forwarding' (1 sources, 209 headers) in 3.43 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 15:40:31.056
+!MESSAGE Indexed 'Bind' (1 sources, 209 headers) in 3.82 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 15:54:15.700
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Bind/Debug/Bind not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 15:54:15.700
+!MESSAGE /Users/jaegu/Desktop/CppProject/Bind/Debug/Bind not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Bind/Debug/Bind not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2018-05-24 15:55:50.821
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Bind/Debug/Bind not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2018-05-24 15:55:50.821
+!MESSAGE /Users/jaegu/Desktop/CppProject/Bind/Debug/Bind not found
+!STACK 0
+java.io.FileNotFoundException: /Users/jaegu/Desktop/CppProject/Bind/Debug/Bind not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:684)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:260)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:88)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 16:16:07.983
+!MESSAGE Indexed 'Shared Pointers' (1 sources, 209 headers) in 7.41 sec: 23,376 declarations; 47,098 references; 0 unresolved inclusions; 10 syntax errors; 56 unresolved names (0.079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 16:27:54.352
+!MESSAGE Indexed 'Move Constructors' (1 sources, 212 headers) in 4.29 sec: 24,614 declarations; 50,533 references; 0 unresolved inclusions; 10 syntax errors; 642 unresolved names (0.85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-05-24 16:38:39.955
+!MESSAGE Indexed 'Move Assignment Operators' (1 sources, 212 headers) in 4.1 sec: 24,609 declarations; 50,494 references; 0 unresolved inclusions; 10 syntax errors; 642 unresolved names (0.85%)

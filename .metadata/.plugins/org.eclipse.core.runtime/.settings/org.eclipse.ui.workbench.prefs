@@ -2,6 +2,7 @@
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
 REMOTE_COMMANDS_VIEW_FONT=1|Monaco|18.0|0|COCOA|1|Monaco;
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
 eclipse.preferences.version=1
 org.eclipse.cdt.debug.ui.ModulesDetailPaneFont=1|Monaco|18.0|0|COCOA|1|Monaco;
 org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Monaco|18.0|0|COCOA|1|Monaco;

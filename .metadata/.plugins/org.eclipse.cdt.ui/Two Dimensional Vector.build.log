@@ -1,6 +1,6 @@
-14:23:04 **** Incremental Build of configuration Debug for project Two Dimensional Vector ****
+16:29:01 **** Incremental Build of configuration Debug for project Two Dimensional Vector ****
 make all 
 make: Nothing to be done for `all'.
 
-14:23:04 Build Finished (took 87ms)
+16:29:02 Build Finished (took 197ms)
 
